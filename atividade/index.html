@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Semântica</title>
+
+</head>
+<body>
+
+<main class="calculadora">
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+
+    <section>
+      
+        <form id="form-calculadora">
+            <label for="num1">Número 1:</label>
+            <input type="number" id="num1" name="num1" placeholder="Digite o primeiro número">
+
+            <label for="num2">Número 2:</label>
+            <input type="number" id="num2" name="num2" placeholder="Digite o segundo número">
+        </form>
+    </section>
+
+    <section class="operacoes">
+       
+        <button data-operacao="+">Soma</button>
+        <button data-operacao="-">Subtração</button>
+        <button data-operacao="*">Multiplicação</button>
+        <button data-operacao="/">Divisão</button>
+    </section>
+
+    <section>
+        
+        <p id="resultado">Resultado: </p>
+    </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
